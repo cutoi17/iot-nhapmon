@@ -49,3 +49,19 @@ def number_questions(input_path, output_path):
 input_file = r"C:\Users\Admin\Documents\forrm\FileGoc.docx"
 output_file = r"C:\Users\Admin\Documents\forrm\FileKetQua.docx"
 number_questions(input_file, output_file)
+# File: phamKhanh_25139015.py
+# Họ tên: Phạm Khánh
+# MSSV: 25139015
+
+def display_info():
+    info = {
+        "Họ tên": "Phạm Khánh",
+        "MSSV": "25139015",
+        "Email": "phamkhanh@edu.vn"  # Thêm email nếu có
+    }
+    for key, value in info.items():
+        print(f"{key}: {value}")
+
+if __name__ == "__main__":
+    print("Thông tin cá nhân:")
+    display_info()
