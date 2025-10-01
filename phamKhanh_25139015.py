@@ -59,11 +59,33 @@ def display_info():
     info = {
         "Họ tên": "Phạm Khánh",
         "MSSV": "25139015",
-        "Email": "phamkhanh@edu.vn"  # Thêm email nếu có
+        "Email": "25139015@student.hcmute.edu.vn"  # Thêm email nếu có
     }
     for key, value in info.items():
         print(f"{key}: {value}")
 
 if __name__ == "__main__":
     print("Thông tin cá nhân:")
+    display_info()
+    # File: phamKhanh_25139015.py
+# Họ tên: Phạm Khánh
+# MSSV: 25139015
+
+def display_info():
+    """
+    Hiển thị thông tin cá nhân của sinh viên.
+    Input: None
+    Output: In thông tin cá nhân ra màn hình
+    """
+    info = {
+        "Họ tên": "Phạm Khánh-2",
+        "MSSV": "25139015",
+        "Email": "25139015@student.hcmute.edu.vn"
+    }
+    print("=== Thông tin cá nhân ===")
+    for key, value in info.items():
+        print(f"{key}: {value}")
+    print("========================")
+
+if __name__ == "__main__":
     display_info()
